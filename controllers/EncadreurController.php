@@ -61,7 +61,7 @@ class EncadreurController {
         } catch (PDOException $e) {
             error_log("Erreur lors de la récupération de l'ID de l'étudiant : " . $e->getMessage());
             $_SESSION['erreur'] = "Erreur lors de la récupération de l'ID de l'étudiant.";
-            include 'consultation_taches.php'; // Inclure la vue même en cas d'erreur
+            include '../views/consultation_taches.php'; // Inclure la vue même en cas d'erreur
             exit();
         }
 

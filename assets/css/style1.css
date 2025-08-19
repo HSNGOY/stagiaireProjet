@@ -1,0 +1,114 @@
+/* Styles CSS pour l'accueil */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    color: #1a237e;
+}
+
+/* Amélioration de l'en-tête */
+header {
+    background: #0056b3;
+    color: #fff;
+    padding: 10px 40px; /* Réduction du padding vertical */
+    border-bottom: 4px solid #7ed957;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-top: 10px; /* Ajout de marge en haut du titre */
+    margin-bottom: 5px; /* Réduction de la marge en bas */
+    text-align: center;
+}
+
+/* Style de la navigation */
+nav {
+    position: absolute;
+    bottom: 5px; /* Ajustement de la position du bas */
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+/* Fin des styles de la navigation */
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(26, 35, 126, 0.08);
+}
+
+section.card {
+    margin-bottom: 38px;
+    padding: 24px 18px;
+    background: #f6f8fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(26, 35, 126, 0.04);
+    border-left: 6px solid #7ed957;
+    display: flex; /* Utilisation de flex pour aligner l'image et le texte */
+    align-items: center; /* Alignement vertical */
+}
+
+section.card img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px; /* Ajout de marge à droite de l'image */
+    border-radius: 8px;
+}
+
+section.card .text-container {
+    flex: 1; /* Prend tout l'espace disponible */
+}
+
+section.card p.section-title {
+    color: #1a237e;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+section.card p {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background: #1a237e;
+    color: #fff;
+    margin-top: 40px;
+    border-top: 4px solid #7ed957;
+    font-size: 1rem;
+}
